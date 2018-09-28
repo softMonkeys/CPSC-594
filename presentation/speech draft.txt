@@ -1,0 +1,54 @@
+Introduction - Who we are
+
+Introduction of HireGround
+  -background information of the company
+    -introduce what they do, why they do it
+    -too time consuming for employers to process high volume of applicants
+    -quickly identify qualified applicants
+
+How it works currently
+  -Talk about how they parse through resumes currently
+  -based on resume sections such as work/experience
+    
+Talk about Objective
+  -Increase accuracy of matching algorithm from 60 to 80%
+  -Display output/information in a visually clear, concise, and (c)appealing format.
+
+Constraints
+  -we aren't able to have immediate access to the database, we will have to test on a smaller test sample size first.
+  -we have little experience in neural networks in the group
+  
+Assumptions
+  -assume that HireGround is taking care of user security.
+  -we assume that we have access to the algorithm.
+  -we assume that we do not need special accomodations for mobile platforms.
+  
+Team & Roles Definition
+  -Considerations for 2-man team
+  -Strengths
+  -
+  
+Deliverables
+  -All of the historical data will be trained to fit the new Postgres DB
+  -Resume will be seperated into their sections for parsing individually.
+  -Just w.e is on his todo list slide
+
+Requirements
+Functional
+  -Data must be in a Postgres DB format
+  -Resume sections must be seperated, extracted to raw text, then run through with the algorithm to determine matching score
+  -Output needs to be displayed in a visualized format
+  -
+  
+Non-functional
+  -information visualization must be produced in a reasonable amount of time, to avoid site loading screen.
+  -scalability; code needs to be well-organized
+  -maintainable; after we improve on the algorithm, naturally Hireground needs to be able to improve on it further after the project.
+  -needs to be able to handle large volumes of data, upwards of 300k resumes
+  -able to meet the requested 80% accuracy on the matching.
+
+Speech Roles
+Paul-Intro of us, company and project
+Omar-Objective Constraints and Assumptions
+Ben -Team and roles definition
+Kim - Deliverables, Functional/Non-Functional requirements
